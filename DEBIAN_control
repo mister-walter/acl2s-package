@@ -1,0 +1,8 @@
+Package: acl2s
+Version: 0.1
+Section: custom
+Priority: optional
+Architecture: amd64
+Essential: no
+Maintainer: Andrew Walter <walter.a@northeastern.edu>
+Description: The ACL2 Sedan theorem prover.
