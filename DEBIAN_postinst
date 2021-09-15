@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ln -s -f /opt/acl2/acl2/saved_acl2 /usr/bin/acl2
+ln -s -f /opt/acl2/acl2s /usr/bin/acl2s
+
+exit 0

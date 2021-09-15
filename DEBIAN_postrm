@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm /usr/bin/acl2
+rm /usr/bin/acl2s
+
+exit 0

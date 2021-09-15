@@ -64,6 +64,8 @@ RUN mkdir -p /opt/bin \
 RUN mkdir -p /opt/acl2s/DEBIAN \
     && mkdir /opt/acl2s/opt
 COPY DEBIAN_control /opt/acl2s/DEBIAN/control
+COPY DEBIAN_postinst /opt/acl2s/DEBIAN/postinst
+COPY DEBIAN_postrm /opt/acl2s/DEBIAN/postrm
 RUN mv /opt/acl2 /opt/acl2s/opt/ \
     && cd /opt \
     && dpkg-deb --build acl2s
